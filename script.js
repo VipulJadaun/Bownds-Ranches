@@ -64,3 +64,93 @@ gsap.to("#page2 img",{
         scrub:true,
     }
 })
+
+gsap.to("#nav",{
+  background: "linear-gradient(#ffffffd9,#ffffff9d,#ffffff00)",
+  scrollTrigger:{
+    scroller:"#main",
+    trigger:"#nav",
+    start:"top -112%",
+    // end:"top -35%",
+    markers:true,
+    scrub:true,
+
+  }
+})
+
+gsap.to("svg",{
+  top:"4%",
+  scale:1.4,
+  scrollTrigger:{
+    scroller:"#main",
+    trigger:"svg",
+    start:"top 35%",
+    end:"top -45%",
+    markers:true,
+    scrub:true,
+  }
+})
+
+gsap.to("svg",{
+  fill:"#111",
+
+  scrollTrigger:{
+    scroller:"#main",
+    trigger:"svg",
+    start:"top -68%",
+    end:"top -60%",
+    markers:true,
+    scrub:true,
+  }
+})
+
+
+gsap.to("#nav h3",{
+  color:"#111",
+ 
+  scrollTrigger:{
+    scroller:"#main",
+    trigger:"#nav",
+    start:"top -110%",
+    // end:"top -35%",
+    markers:true,
+    scrub:true,
+  }
+})
+
+gsap.to("#nav",{
+  background: "linear-gradient(#00000065,#00000051,#00000007)",
+  scrollTrigger:{
+    scroller:"#main",
+    trigger:"#nav",
+    start:"top -357%",
+    // end:"top -35%",
+    markers:true,
+    scrub:true,
+  }
+})
+gsap.to("#nav h3",{
+  color:"#fff",
+  scrollTrigger:{
+    scroller:"#main",
+    trigger:"#nav",
+    start:"top -357%",
+    // end:"top -35%",
+    markers:true,
+    scrub:true,
+  }
+})
+
+
+gsap.to("svg",{
+  fill:"#fff",
+
+  scrollTrigger:{
+    scroller:"#main",
+    trigger:"svg",
+    start:"top -315%",
+    end:"top -60%",
+    markers:true,
+    scrub:true,
+  }
+})
