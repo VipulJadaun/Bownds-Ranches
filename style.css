@@ -18,13 +18,13 @@ body {
 
 @font-face {
     font-family: America;
-    src: url(/font/GT-America-Compressed-Regular\ \(1\).woff);
+    src: url(./font/GT-America-Compressed-Regular\ \(1\).woff);
     
 }
 
 @font-face {
     font-family: Americab;
-    src: url(/font/GT-America-Compressed-Bold.woff);
+    src: url(./font/GT-America-Compressed-Bold.woff);
     
 }
 
@@ -185,7 +185,7 @@ svg path {
 }
 
 #scrol {
-    background-image: url(/Images/buttonDarkBg.svg);
+    background-image: url(./Images/buttonDarkBg.svg);
     position: absolute;
     top: 0;
     left: 0;
