@@ -216,7 +216,7 @@ svg path {
     width: 100%;
     height: 100vh;
     /* background-color: #fff; */
-    background-image: url(/Images/map.jpg);
+    background-image: url(./Images/map.jpg);
     background-position: left;
     background-repeat: no-repeat;
     background-size: cover;
@@ -653,7 +653,7 @@ svg path {
 #page6 #img1 {
     width: 680px;
     height: 420px;
-    background-image: url(/Images/image\ \(4\).png);
+    background-image: url(./Images/image\ \(4\).png);
     /* background-color: aqua; */
     top: 25%;
     left: 28%;
@@ -668,7 +668,7 @@ svg path {
 #page6 #img2 {
     width: 680px;
     height: 420px;
-    background-image: url(/Images/image\ \(3\).png);
+    background-image: url(./Images/image\ \(3\).png);
     /* background-color: aqua; */
     top: 35%;
     left: 28%;
@@ -723,7 +723,7 @@ svg path {
     left: 0;
     height: 155px;
     width: 165px;
-    background-image: url(/Images/img-div1.png);
+    background-image: url(./Images/img-div1.png);
     background-position: center;
     background-size: cover;
     transition: all linear 0.2s;
