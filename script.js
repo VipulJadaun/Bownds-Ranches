@@ -83,18 +83,18 @@ gsap.from("#page2 h2", {
   }
 })
 
-gsap.from("#page3 h1", {
-  duration: 0.5,
-  scrollTrigger: {
-    trigger: "#page3 h1",
-    start: "top 67%",
-    // markers: true,
-    scroller: "#main"
-  },
-  onStart: function () {
-    $('#page3 h1').textillate({ in: { effect: 'fadeInUp' } });
-  }
-})
+// gsap.from("#page3 h1", {
+//   duration: 0.5,
+//   scrollTrigger: {
+//     trigger: "#page3 h1",
+//     start: "top 67%",
+//     // markers: true,
+//     scroller: "#main"
+//   },
+//   onStart: function () {
+//     $('#page3 h1').textillate({ in: { effect: 'fadeInUp' } });
+//   }
+// })
 
 
 
