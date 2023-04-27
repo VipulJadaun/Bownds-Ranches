@@ -1871,7 +1871,7 @@ svg path {
     #page6 #img1 {
         width: 310px;
         height: 180px;
-        background-image: url(/Images/imagecc.png);
+        background-image: url(./Images/imagecc.png);
         background-color: aqua;
         top: 7%;
         left: 13vw;
@@ -1887,7 +1887,7 @@ svg path {
     #page6 #img2 {
         width: 310px;
         height: 180px;
-        background-image: url(/Images/imagec.png);
+        background-image: url(./Images/imagec.png);
         background-color: aqua;
         top: 40%;
         left: 3%;
@@ -1949,7 +1949,7 @@ svg path {
         left: 0;
         height: 155px;
         width: 165px;
-        background-image: url(/Images/img-div1.png);
+        background-image: url(./Images/img-div1.png);
         background-position: center;
         background-size: cover;
         transition: all linear 0.2s;
