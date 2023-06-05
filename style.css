@@ -1170,12 +1170,57 @@ svg path {
 
 
 
+
 #page10 {
     width: 100vw;
-    height: 100vh;
-    background-color: #e12121;
+    height: 160vh;
+    background-color: #111;
+    margin-top: -140px;
 }
+#page10 h1{
+    font-size: 170px;
+    font-family: Americab;
+    text-transform: uppercase;
+    width: 50%;
+    line-height: .8;
+    letter-spacing: -4px;
+    padding: 18px;
+    color: #fff;
+}
+#page10 svg{
+    position: relative;
+    margin-top: 15%;
+}
+#page10 img{
+    height: 120px;
+    right: 2%;
+    top: 4%;
+    position: relative;
+    position: absolute;
+}
+#page10 h2{
+    position: relative;
+    left: 46%;
+    font-size: 40px;
+    font-family: Americab;
+    color: #fff;
+    line-height: .8;
+    margin-top: 29px;
 
+}
+#page10 h3{
+    font-size: 160px;
+    font-family: Americab;
+    text-transform: uppercase;
+    right: -43.8%;
+    margin-top: 185px;
+    position: relative;
+    text-align: right;
+    line-height: .8;
+    letter-spacing: -4px;
+    width: 55%;
+    color: #fff;
+}
 @media (max-width:600px) {
     body{
         overflow-x: hidden;
@@ -1872,7 +1917,7 @@ svg path {
         width: 310px;
         height: 180px;
         background-image: url(./Images/imagecc.png);
-        background-color: aqua;
+        /* background-color: aqua; */
         top: 7%;
         left: 13vw;
         /* right: 5%; */
@@ -1888,7 +1933,7 @@ svg path {
         width: 310px;
         height: 180px;
         background-image: url(./Images/imagec.png);
-        background-color: aqua;
+        /* background-color: aqua; */
         top: 40%;
         left: 3%;
         position: absolute;
@@ -2410,5 +2455,6 @@ svg path {
         height: 100vh;
         background-color: #e12121;
     }
+   
 
 }
